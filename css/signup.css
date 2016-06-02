@@ -1,0 +1,23 @@
+body {
+  box-sizing: content-box;
+}
+
+div.wrapper {
+  background: #a5dff9;
+}
+
+@media (min-width: 78px) {
+  .container {
+    max-width: 760px;
+    background-color: floralwhite;
+  }
+}
+
+.container {
+  padding: 23px, margin: 40px, 40px;
+}
+
+.row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
